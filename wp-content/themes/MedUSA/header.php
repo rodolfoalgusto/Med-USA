@@ -38,10 +38,11 @@
             <div class="caixa-login">
                 <div class="uk-margin-medium-right"><a href="#" class="login">Login</a></div>
             </div>
-            <div class="busca">
-                <form class="uk-search-toggle" href="uk-search-icon" action="<?php bloginfo('url');?>//" method="get">
-                    <input type="text" name="#" id="#" placeholder="Buscar" value="<?php the_search_query(); ?>">
-                    <input type="submit" id="#" value="Buscar">
+
+            <div class="">
+                <form class=" busca" id="buscando" href="uk-search-icon" action="<?php bloginfo('url');?>//" method="get">
+                    <input class="busca-text " type="text" name="#" id="busca-text" placeholder="Buscar" value="<?php the_search_query(); ?>">
+                    <input class="btn-buscar "   type="submit" id="btn" value="buscar"><i class="fas fa-search"></i>
                 </form>
             </div>
         </div>

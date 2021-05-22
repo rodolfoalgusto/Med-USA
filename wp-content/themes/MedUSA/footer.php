@@ -16,7 +16,7 @@ $img_url = get_stylesheet_directory_uri() . '/img';
                  <p>info@medusarcm.com</p>
              </div>
 
-             <div class="uk-container uk-flex " style="padding-top: 10px">
+             <div class="rd uk-container uk-flex " style="padding-top: 10px" width: 60px !important;>
                  <a class="" href="Twitter"><img src="<?= $img_url; ?>/twitter.svg" alt=""></a>
                  <a class="uk-margin-left" href="instagram"><img src="<?= $img_url; ?>/facebook.svg" alt=""></a>
                  <a class="uk-margin-left" href="https://www.linkedin.com/in/rodolfo-webdesigner/"><img src="<?= $img_url; ?>/linkedin.svg" alt=""></a>
@@ -27,17 +27,17 @@ $img_url = get_stylesheet_directory_uri() . '/img';
          <div>
              <div id="about-case">
                  <ul class="case links " >
-                     <li class=" "><a href="sobre">About MedUSA</a></li>
-                     <li class=" "><a href="service">Service</a></li>
-                     <li class=" "><a href="blog">Blog</a></li>
+                     <li class=" med"><a href="sobre">About MedUSA</a></li>
+                     <li class="service "><a href="service">Service</a></li>
+                     <li class=" blog"><a href="blog">Blog</a></li>
                  </ul>
              </div>
 
              <div >
                  <ul class=" links case link">
-                     <li class=" "><a href="#">Case Studies</a></li>
-                     <li class=" "><a href="#">Software</a></li>
-                     <li class=" "><a href="#">Contact Us</a></li>
+                     <li class="studies"><a href="#">Case Studies</a></li>
+                     <li class=" software"><a href="#">Software</a></li>
+                     <li class=" us"><a href="#">Contact Us</a></li>
                  </ul>
              </div>
          </div>

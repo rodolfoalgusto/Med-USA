@@ -28,6 +28,7 @@ body {
 	font-size: montserrat !important;
 }
 
+				/* LOGIN AND BUSCA  INICIO*/
 .login-busca {
 	width: 100%;
 	height: 30px;
@@ -44,6 +45,10 @@ body {
 	text-decoration: none !important;
 	list-style: none !important;
 }
+
+
+										/*  LOGIN AND BUSCA  FIM*/ 
+										/* CABECALHO INICIO */
 
 .header {
 	width: 100%;
@@ -89,13 +94,16 @@ body {
 	color: #C8102E;
 }
 
-
+											/* CABECALHO FIM*/
+											/* INTRODUCAO INICIO */
 
 .intro {
 	width: 100%;
 	height: 1150px;
-	background: url(img/fundo.jpg);
+	background: url(img/MEDUSA_HOME_IMG005[1X].png);
 	background-size: cover;
+	background-position-x: 80%;
+	background-position-y: 50%;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	object-fit: contain;
@@ -189,16 +197,23 @@ body {
 	margin-bottom: 31px;
 }
 
-.caixa-3 h5 {
+.caixa-3 h3 {
 	color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -30px;
 }
 
 .caixa-3 p {
 	color: #fff;
-	line-height: 30px;
+    line-height: 30px;
+    font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 14px;
 }
 
-/* SESSAO FORMULARIO INICIO*/
+											/* INTRODUCAO FIM */
+											/* SESSAO FORMULARIO INICIO*/
 .sessao-form {
 	margin-top: -45px;
     height: 700px;
@@ -226,7 +241,7 @@ body {
 	padding-top: 15px;
 }
 
-.farm-containerr {
+.farm-container {
 	width: 50vw;
 }
 
@@ -322,7 +337,8 @@ body {
 
 }
 
-/* SESSAO FORMULARIO FIM*/
+															/* SESSAO FORMULARIO FIM*/
+															/* FOOTER INICIO */
 
  .footer {
 	background: #000;
@@ -370,9 +386,10 @@ body {
 
 .copy {
 	width: 100%;
-	height: 40px;
+	height: 30px;
 	background: #fff;
 	margin-top: 10px;
+	align-items: center;
 }
 
 .copy p {
@@ -397,3 +414,19 @@ body {
 	list-style: none !important;
 	max-width: none !important;
 }  
+
+
+.service {
+	padding-right: 29px !important;
+}
+
+.blog {
+	padding-right: 56px !important;
+}
+
+.rd {
+padding-top: 10px !important;
+width: 130px;
+padding-right: 50px !important;
+}
+/* FOOTER INICO */

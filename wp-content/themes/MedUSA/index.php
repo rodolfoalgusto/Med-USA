@@ -22,7 +22,7 @@ $img_url = get_stylesheet_directory_uri() . '/img';
     <div class="uk-margin-xlarge-top uk-container uk-column-1-2 ">
         <div class=" caixa-3 ">
             <h2 class="uk-h2">Cloud Based RCM Service and Software</h2>
-            <h5 class="uk-h5">Excellent Service is Our Promise</h5>
+            <h3 class="uk-h5">Excellent Service is Our Promise</h3>
             <p class="">Provinding excellent service to your patients and your practice is our promise. Our
                 dedicated team of
                 billing specialists and billing managers are here to help. We have over 38 years of combined pratice
