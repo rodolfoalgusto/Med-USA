@@ -1,0 +1,399 @@
+@charset "UTF-8";
+/*
+Theme Name: MedUSA
+Theme URI: https://https://www.smartinnovation.com.br
+Author: Smart Innovation
+Author URI: https://www.smartinnovation.com.br
+Description: Esse é um tema de teste 17/2021 usado pela MedUSA
+Version: 1.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: medusa
+Tags: 
+Domain: /languages
+
+*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+--------------------------------------------------------------*/
+
+@import 'uikit.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,500;1,900&display=swap');
+
+html {
+	font-family: montserrat !important;
+}
+
+body {
+	font-size: montserrat !important;
+}
+
+.login-busca {
+	width: 100%;
+	height: 30px;
+	padding-top: 10px;
+	background: #000;
+}
+
+.login {
+	font-size: 14px;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none !important;
+	list-style: none !important;
+}
+
+.header {
+	width: 100%;
+	height: 45px;
+	background: #000;
+	align-items: center;
+	align-content: center;
+	padding-top: 10px;
+	padding-bottom: 31px;
+}
+
+.img-logo {
+	width: 100%;
+	height: 50px;
+}
+
+.menu {
+	max-width: none !important;
+	width: 50vw;
+}
+
+#menu-ul {
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 180px;
+}
+
+.menu ul li {
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.menu ul li:hover {
+	color: #C8102E;
+}
+
+
+
+.intro {
+	width: 100%;
+	height: 1150px;
+	background: url(img/fundo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	object-fit: contain;
+	object-position: 87% 65%;
+}
+
+.fundo-preto {
+	width: 100%;
+	height: 469px;
+	background: #000;
+}
+
+.caixa-img-1 {
+	width: 60vw;
+	max-width: none !important;
+}
+
+.img-1 {
+	max-width: none !important;
+	width: 100%;
+	height: 520px;
+	object-fit: cover;
+	position: relative;
+}
+
+.card {
+	position: absolute;
+	z-index: 99;
+	background: #000;
+}
+
+.img-2 {
+	height: 513px;
+	object-fit: cover;
+	z-index: 99;
+	max-width: none;
+	width: 65%;
+	position: inherit;
+}
+
+.card h1 {
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-right: 173px;
+	margin-top: -20px;
+	color: #fff;
+}
+
+.card h1::after {
+	content: "";
+	display: inline-block;
+	width: 425px;
+	border-top: 4px solid #CCA653;
+	margin-left: -153px;
+	margin-bottom: 56px;
+}
+
+.card h3 {
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-right: 173px;
+	margin-top: -30px;
+	color: #fff;
+
+}
+
+#btn-vermelho {
+	background: #C8102E;
+	text-transform: none;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.caixa-3 {
+	text-align: left;
+	padding-right: 137px;
+}
+
+.caixa-3 h2 {
+	color: #fff;
+}
+
+.caixa-3 h2::after {
+	content: "";
+	display: inline-block;
+	width: 618px;
+	border-top: 4px solid #CCA653;
+	margin-top: -10px;
+	margin-bottom: 31px;
+}
+
+.caixa-3 h5 {
+	color: #fff;
+}
+
+.caixa-3 p {
+	color: #fff;
+	line-height: 30px;
+}
+
+/* SESSAO FORMULARIO INICIO*/
+.sessao-form {
+	margin-top: -45px;
+    height: 700px;
+    padding-bottom: 50px;
+    background-image: url(img/skin-mask-min-orige.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 180px;
+    gap: 20px;
+
+}
+
+.sessao-form h2 {
+	margin-top: 40px !important;
+	margin-bottom: 40px;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #000;
+	padding-top: 15px;
+}
+
+.farm-containerr {
+	width: 50vw;
+}
+
+.from {
+	width: 100%;
+}
+
+.camp {
+	display: flex;
+	justify-content: space-between;
+}
+
+.inputbox {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	width: 40%;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.inputbox label {
+	font-size: 16px;
+	color: #fff;
+
+}
+
+.inputbox input {
+	width: 100%;
+	background: #E2E7F0;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 4px solid #C8102E;
+}
+
+.img-3 {
+	width: 100%;
+	height: 720px;
+	object-fit: cover;
+	object-position: 0px 0px;
+	position: inherit;
+}
+
+.titulo-formulario h2 {
+	margin-top: 50px;
+	background: #C8102E;
+	padding-right: 45px;
+	padding-left: 390px;
+	color: #27251F;
+	text-align: end;
+}
+
+.titulo-form {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.titulo-form h3 {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	font-size: 30px;
+	color: #000;
+	font-weight: 600;
+	letter-spacing: 1px;
+	display: flex;
+
+}
+
+.btn-enviar {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px !important;
+}
+
+.btn-enviar .enviar {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px !important;
+	background: #C8102E;
+}
+
+.enviar {
+	width: 15%;
+	font-size: 16px;
+
+}
+
+/* SESSAO FORMULARIO FIM*/
+
+ .footer {
+	background: #000;
+    height: 380px;
+    padding-top: 20px;
+}
+
+.caixa-footer {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start;
+	height: 350px;
+	padding-top: 50px;
+}
+
+.contato {
+    color: #fff;
+    font-weight: 600;
+    line-height: 01;
+	padding-top: 25px;
+}
+
+.case {
+	width: 50vw;
+	height: 30px;
+    display: flex !important;
+    justify-content: space-around;
+	padding-top: 12px;
+}
+
+#about-case {
+	display: block;
+}
+
+.menu-footer ul li a {
+	color: none !important;
+	background-color: #fff;
+}
+
+.case  li a{
+	color: #fff;
+	text-decoration: none;
+	list-style: none;
+}
+
+.copy {
+	width: 100%;
+	height: 40px;
+	background: #fff;
+	margin-top: 10px;
+}
+
+.copy p {
+	color:  #000;;
+}
+
+.link ul li a{
+	color: none !important;
+}
+
+.altura {
+	padding-top: 16px;
+}
+
+.links {
+	font-size: 14px;
+	color: #fff !important;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: deaful;
+	text-decoration: none !important;
+	list-style: none !important;
+	max-width: none !important;
+}  
